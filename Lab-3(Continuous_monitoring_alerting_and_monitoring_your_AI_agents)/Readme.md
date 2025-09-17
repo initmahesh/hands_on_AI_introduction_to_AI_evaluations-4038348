@@ -1,6 +1,6 @@
-# Lab 5: Continuous Monitoring and Alerting for Your AI Agents (Azure AI Foundry) - Introduction
+# Lab 3: Continuous Monitoring and Alerting for Your AI Agents (Azure AI Foundry) - Introduction
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sachin0034/hands_on_AI_introduction_to_AI_evaluations-4038348/blob/main/Lab-5%28Continuous_monitoring_alerting_and_monitoring_your_AI_agents%29/Continuously_Evaluate_your_AI_agents_Azure_AI_Foundry.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sachin0034/hands_on_AI_introduction_to_AI_evaluations-4038348/blob/main/Lab-3%28Continuous_monitoring_alerting_and_monitoring_your_AI_agents%29/Continuously_Evaluate_your_AI_agents_Azure_AI_Foundry.ipynb)
 
 
 ## 🧠 Overview

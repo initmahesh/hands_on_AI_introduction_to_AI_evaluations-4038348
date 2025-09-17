@@ -1,36 +1,47 @@
 # Hands-On AI: Introduction to AI Evaluations
-This is the repository for the LinkedIn Learning course `Hands-On AI: Introduction to AI Evaluations`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course `Hands-On AI: Introduction to AI Evaluations`.  The full course is available on [LinkedIn Learning](https://www.linkedin.com/learning/).
 
-![course-name-alt-text][lil-thumbnail-url] 
+![hands-on-ai-introduction-to-ai-evaluations](assets/images/readme-banner.png)
+AI evaluation refers to the process of assessing the performance, accuracy, and reliability of AI models designed to generate content, such as text, images, music, or videos. Model evaluation metrics are crucial for assessing AI models to ensure they meet the desired objectives.  
+AI evaluation is a critical aspect of machine learning to ensure models perform as expected. Large language models, like GPT, Gemini, or Mistral, are evaluated to ensure that they produce coherent, high-quality outputs that meet the desired objectives without creating harmful or unethical content.
 
-_See the readme file in the main branch for updated instructions and information._
+---
+
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+This repository does not have any branches. Download the entire repository and you get the exercise files in their final state.
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+## Lab Folder Structure
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+- **Lab 1: LLM as Judge**
+Learn how to use one AI model to judge another AI model's performance. In this lab, you'll use OpenAI to check how good your LLM responses are. We'll show you how to write prompts that help you figure out if your AI is giving good answers or not.
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+
+- **Lab 2: Using Custom Azure AI Evaluators**  
+Why write everything from scratch when someone already did the work for you? In this lab, you'll use Azure AI's built-in evaluators like to check the fluency, coherence etc to check your AI models. These evaluators are already trained and ready to use you just need to know how to use them.
+
+- **Lab 3: Continuous Monitoring and Alerting - Keeping an Eye on Your AI 24/7**  
+Once your AI is live, you need to watch it like a hawk. This lab shows you how to connect your app to Azure AI Foundry so you can see what's happening in real-time. You'll learn to track how well your AI is doing and set up alerts so you know right away if something goes wrong.
+
+
+- **Lab 4: AI Red Teaming**  
+Master advanced adversarial testing methodologies to identify AI system vulnerabilities and ensure robust performance under challenging conditions. Learn to conduct systematic red team exercises, design edge case scenarios, and implement comprehensive security assessments for production AI systems.
 
 ## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
 
+To run these labs, you'll need the following:
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+- A [Google Colab](https://colab.research.google.com/) account  
+- An [OpenAI API Key](https://platform.openai.com/api-keys)  
+- An **Azure Premium subscription account**
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+To open any lab:
 
+1. Click on **"Open with Colab"**.
+2. The lab will automatically open in your Colab account.
+3. From there, you can run the notebook directly.
+
+## Instructor
+
+**Mahesh Yadav**  
+*AI Product Manager*

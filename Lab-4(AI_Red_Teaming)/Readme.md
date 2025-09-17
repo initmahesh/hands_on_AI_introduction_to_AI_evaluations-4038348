@@ -1,4 +1,4 @@
-# Lab: AI Red Teaming Lab - Introduction
+# Lab 4 : AI Red Teaming Lab - Introduction
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sachin0034/hands_on_AI_introduction_to_AI_evaluations-4038348/blob/main/Lab-4%28AI_Red_Teaming%29/AI_Red_Teaming_Lab.ipynb)
 

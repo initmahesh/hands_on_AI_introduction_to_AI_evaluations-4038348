@@ -1,1 +1,0 @@
-# Vibe Coding: Build Your First AI Agent with Cursor
